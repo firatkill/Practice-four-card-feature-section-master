@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+}
+.container {
+  border: none;
+  margin-top: 1rem;
+}
+.card {
+  background-color: hsl(0, 0%, 98%);
+  border: none;
+  box-shadow: 2px 8px 10px 1px rgb(184, 183, 183);
+}
+.card-header {
+  text-align: center;
+  justify-content: center;
+  border: none;
+  background: none;
+}
+.card-header #hlight {
+  font-weight: 200;
+}
+.card-header #hbold {
+  font-weight: 600;
+}
+.card-header p {
+  text-align: center;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 1rem;
+}
+.card-body {
+  padding: 3rem;
+}
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#supervisor,
+#teambuilder,
+#karma,
+#calculator {
+  border: none;
+  border-radius: 5px;
+  box-shadow: 2px 8px 10px 1px rgb(184, 183, 183);
+  padding: 1.5rem;
+  border-top: 4px solid blue;
+}
+.col h3 {
+  font-weight: 600;
+}
+.col p {
+  opacity: 0.6;
+}
+#supervisor {
+  border-color: hsl(180, 62%, 55%);
+}
+#teambuilder {
+  border-color: hsl(0, 78%, 62%);
+}
+#karma {
+  margin-top: 2rem;
+  border-color: hsl(34, 97%, 64%);
+}
+#calculator {
+  border-color: hsl(212, 86%, 64%);
+}
+.col img {
+  margin-left: 80%;
+  padding-top: 3rem;
+}
